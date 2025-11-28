@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exercice 6</title>
+</head>
+
+<body>
+
+    <h1>Taureau — Vache</h1>
+
+
+    <div class="controls">
+        <label for="niveau">Niveau :</label>
+        <select id="niveau">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+
+        <button id="Demarrer">Démarrer</button>
+
+        <div style="display:flex; gap:8px; align-items:center">
+            <span class="small">Tentatives :</span>
+            <span id="compteur" class="pill">0</span>
+        </div>
+    </div>
+
+    <div class="game-area">
+        <div class="status small" id="message">Appuyez sur "Démarrer" pour commencer.</div>
+
+        <div class="row">
+            <input type="text" id="proposition" placeholder="Entrez votre proposition" aria-label="proposition" />
+            <button id="valider">Valider</button>
+            <button id="revealer" class="secondary">Afficher secret</button>
+        </div>
+
+        <div class="history" id="history">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
