@@ -13,7 +13,7 @@
     <h1>Taureau — Vache</h1>
 
 
-    <div class="controls">
+    <div class="controle">
         <label for="niveau">Niveau :</label>
         <select id="niveau">
             <option value="3">3</option>
@@ -27,18 +27,18 @@
         <button id="Demarrer">Démarrer</button>
 
         <div style="display:flex; gap:8px; align-items:center">
-            <span class="small">Tentatives :</span>
+            <span class="tenta">Tentatives :</span>
             <span id="compteur" class="pill">0</span>
         </div>
     </div>
 
-    <div class="game-area">
+    <div>
         <div class="status small" id="message">Appuyez sur "Démarrer" pour commencer.</div>
 
         <div class="row">
             <input type="text" id="proposition" placeholder="Entrez votre proposition" aria-label="proposition" />
             <button id="valider">Valider</button>
-            <button id="revealer" class="secondary">Afficher secret</button>
+
         </div>
 
         <div class="history" id="history">

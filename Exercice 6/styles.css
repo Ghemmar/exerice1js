@@ -12,10 +12,7 @@ h1 {
     margin-bottom: 6px
 }
 
-p.tip {
-    color: #555;
-    margin-top: 2px
-}
+
 
 
 .controls {
@@ -45,9 +42,7 @@ button {
     cursor: pointer
 }
 
-button.secondary {
-    background: #6b7280
-}
+
 
 button:disabled {
     opacity: 0.6;
@@ -81,10 +76,9 @@ button:disabled {
 }
 
 .bad {
-    color: #b91c1c
+    color: #ec1a1a
 }
 
 .good {
-    color: #047857
+    color: #02ad7d
 }
-
